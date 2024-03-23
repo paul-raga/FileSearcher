@@ -1,20 +1,13 @@
-created with .NET 8.0
+Versione .NET 8.0
 
-Pattern matching alogithm:
-_ Knuth-Morris-Pratt
+Database: 
+_SQLite database (bin/Debug/net8.0/MyDatabase.db)
 
-DEPENDENCIES AND REQUIRED LIBRARIES:
-_ .NET 8.0 
+Libraries:
+_ System.Data.SQLite 
+_ Microsoft Entity Framework 
 
-USER INSTRUCTIONS:  
-_unzip the folder and open a shell instance
-_change directory to ...\fileSearcher\source 
-_type command  $dotnet run
-_follow the prompt instructions
-In alternative go to folder fileSearcher\source\bin\Debug\net8.0\ and double clic on fileSearcher.exe 
+Pattern matching algorithm:
+_Algoritmo Knuth-Morris-Pratt
 
-
-
-The files you'll choose to download and analyze will be downloaded on your desktop  
-
-Those files are txt dummys, from the website https://filesamples.com/formats/txt
+GPL License V3
